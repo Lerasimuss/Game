@@ -18,7 +18,6 @@ def return_to_main_menu(mouse_pos):
 
 
 def play(mouse_pos):
-    print("play")
     x = mouse_pos[0]
     y = mouse_pos[1]
     if x in range(495, 720) and y in range(250, 450):
